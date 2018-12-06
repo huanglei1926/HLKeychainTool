@@ -1,1 +1,2 @@
 # HLKeychainTool
+使用Keychain保存并获取唯一DeviceIdentifier
