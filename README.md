@@ -2,7 +2,7 @@
 使用Keychain保存并获取唯一DeviceIdentifier
 
 使用SFHFKeychainUtils进行keychain操作
-
+```Objective-C
 #define APPBundleIdentifier [[NSBundle mainBundle] bundleIdentifier]
 
 + (NSString *)getDeviceIdentifierString{
@@ -37,3 +37,5 @@
             result[12], result[13], result[14], result[15]
             ];
 }
+
+```
